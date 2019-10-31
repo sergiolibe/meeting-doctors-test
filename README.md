@@ -1,14 +1,16 @@
 # meeting-doctors-test
+
 Test from Meeting Doctors
 
 ## Installation
 
-First run 
+First run
 
 ```bash
 composer install
 ```
-That will install Laravel and all dependencies, then you should rename the file **.env.example** to **.env**, and finalle you should run
+
+That will install Laravel and all dependencies, then you should rename the file **.env.example** to **.env**, and finally you should run
 
 ```bash
 php artisan key:generate
@@ -25,5 +27,3 @@ php artisan csv:generate
 Will run a command that will process an **xml file** located in storage/app/XmlFiles if there is one (should be previously uploaded on the index view), and will consume the endpoint https://jsonplaceholder.typicode.com/users.
 
 After that the command will produce an outoput **csv file** located in storage/app/outputCsv, all the output files will be downloadable at the /CsvFiles view, from the index view you can acces to it.
-
-
