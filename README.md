@@ -8,7 +8,13 @@ First run
 ```bash
 composer install
 ```
-That will install Laravel and all dependencies
+That will install Laravel and all dependencies, then you should rename the file **.env.example** to **.env**, and finalle you should run
+
+```bash
+php artisan key:generate
+```
+
+Thats all
 
 ## Usage
 
